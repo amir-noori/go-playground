@@ -1,6 +1,6 @@
 package main
 
-import "playground/patterns"
+import "playground/concurrency/channels"
 
 func main() {
 
@@ -11,6 +11,8 @@ func main() {
 	//coroutines.PrintMessages()
 	//patterns.RunTypeDecorator()
 	//fp.Run()
-	patterns.Run()
+	// patterns.Run()
+	//simpleDataStructure.CopyStackData()
+	channels.Run()
 
 }

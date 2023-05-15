@@ -10,6 +10,7 @@ func Run() {
 	//fmt.Println("imperative fib: ", imperativeFibonacci(100))
 	//fmt.Println("tail recursive fib: ", tailRecFibonacci(10, 0, 1, 1, 0))
 	//fmt.Println("recursive fib: ", RecursiveFibonacci(10))
+	tryClosure()
 
 }
 
